@@ -1,7 +1,12 @@
 import ReactDOM from "react-dom";
+import App from "./components/App";
 
-const App = () => {
-    return <div></div>;
+const Index = () => {
+    return (
+        <div>
+            <App />
+        </div>
+    );
 };
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<Index />, document.querySelector("#root"));
